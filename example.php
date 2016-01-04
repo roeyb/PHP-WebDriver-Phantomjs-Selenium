@@ -5,7 +5,7 @@ require_once('php_webdriver/__init__.php');
 
 
 // start Firefox
-$host = 'http://localhost:4444/wd/hub'; // this is the default
+$host = 'http://172.31.17.231:8910/'; // this is the default
 $capabilities = array(
 	WebDriverCapabilityType::BROWSER_NAME => 'phantomjs',
 	WebDriverCapabilityType::ACCEPT_SSL_CERTS=> true,
